@@ -1,0 +1,28 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: auto;
+  gap: 30px; /* Space between movie containers 
+}
+
+.movie-container {
+  margin-top: 50px;
+  width: 400px; /* Fixed width 
+  border: 2px solid rgb(249, 246, 246);
+  padding: 20px; /* Padding inside the border 
+  box-sizing: border-box; /* Ensures padding and border are included in width 
+  background-color: antiquewhite;
+}
+
+.movie-container img {
+  width: 100%; /* Ensure image fits container width 
+  height: 500px; /* Fixed height 
+  object-fit: cover; /* Crop to fit while maintaining aspect ratio 
+} */
