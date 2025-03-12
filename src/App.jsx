@@ -7,6 +7,7 @@ import Trending from "./components/categories/Trending";
 import Popular from "./components/categories/Popular";
 import WebSeries from "./components/categories/WebSeries";
 import Upcoming from "./components/categories/Upcoming";
+import MoviePageDetails from "./components/MoviePageDetails";
 
 const App = () => {
   return (
@@ -19,7 +20,6 @@ const App = () => {
         <Navbar />
 
         {/* Main Content */}
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/movies" element={<Movies />} />
@@ -28,6 +28,7 @@ const App = () => {
           <Route path="/popular" element={<Popular />} />
           <Route path="/webseries" element={<WebSeries />} />
           <Route path="/upcoming" element={<Upcoming />} />
+          <Route path="/movie/:id" element={<MoviePageDetails />} />
         </Routes>
       </div>
     </Router>
