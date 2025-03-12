@@ -7,8 +7,7 @@ import Trending from "./components/categories/Trending";
 import Popular from "./components/categories/Popular";
 import WebSeries from "./components/categories/WebSeries";
 import Upcoming from "./components/categories/Upcoming";
-import MoviePageDetails from "./components/MoviePageDetails.jsx";
-// import MoviePageDetails from "./components/MoviePageDetails";
+import MoviePageDetails from "./components/MoviePageDetails";
 
 const App = () => {
   return (
